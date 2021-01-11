@@ -6,7 +6,7 @@ CORRECT_YAMLS := $(YAML_FILES:=.fix)
 INSTALL_YAMLS := $(LOCK_FILES:=.install)
 UPDATE_TRUSTED_IUC := $(LOCK_FILES:.lock=.update_trusted_iuc)
 
-GALAXY_SERVER := https://usegalaxy.eu
+GALAXY_SERVER := http://bioinf-galactus/
 
 
 help:
@@ -35,27 +35,15 @@ pr_check:
 	for changed_yaml in `git diff remotes/origin/master --name-only | grep .yaml$$`; do python scripts/pr-check.py $${changed_yaml} && pykwalify -d $${changed_yaml} -s .schema.yaml ; done
 
 update_trusted: $(UPDATE_TRUSTED_IUC) ## Run the update script
-	@# Missing --without, so this updates all tools in the file.
-	python scripts/update-tool.py cheminformatics.yaml
-	python scripts/update-tool.py imaging.yaml
-	python scripts/update-tool.py tools_iuc.yaml
-	python scripts/update-tool.py earlhaminst.yaml
-	python scripts/update-tool.py rnateam.yaml
-	python scripts/update-tool.py bgruening.yaml
-	python scripts/update-tool.py ecology.yaml
-	python scripts/update-tool.py tools_galaxyp.yaml
-	python scripts/update-tool.py single-cell-ebi-gxa.yaml
-	python scripts/update-tool.py genome-annotation.yaml
 
-update_all: $(UPDATED_YAMLS)
+update_all: $(UPDATED_YAMLS)  ## Update all of the tools
 
-%.update: ## Update all of the tools
+%.update:
 	@# Missing --without, so this updates all tools in the file.
 	python scripts/update-tool.py $<
 
 %.update_trusted_iuc: %
 	@# Update any tools owned by IUC in any other yaml file
 	python scripts/update-tool.py --owner iuc $<
-
 
 .PHONY: pr_check lint update_trusted help

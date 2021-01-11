@@ -1,0 +1,81 @@
+---
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+
+tools:
+
+    # data_retrieval
+  - name: 'sra_tools'
+    owner: 'iuc'
+    tool_panel_section_label: 'Get Data'
+   
+    # quality_control
+  - name: 'fastqc'
+    owner: 'devteam'
+    tool_panel_section_label: 'FASTQ Quality Control'
+
+  - name: 'prinseq'
+    owner: 'iuc'
+    tool_panel_section_label: 'FASTQ Quality Control'
+
+  - name: 'trim_galore'
+    owner: 'bgruening'
+    tool_panel_section_label: "FASTA/FASTQ"
+
+  - name: 'trimmomatic'
+    owner: 'pjbriggs'
+    tool_panel_section_label: "FASTA/FASTQ"
+
+  - name: 'multiqc'
+    owner: 'iuc'
+    tool_panel_section_label: 'FASTQ Quality Control'
+
+    # assembly
+  - name: 'megahit'
+    owner: 'iuc'
+    tool_panel_section_label: 'Assembly'
+
+  - name: 'metaspades'
+    owner: 'nml'
+    tool_panel_section_label: 'Assembly'
+
+  - name: 'quast'
+    owner: 'iuc'
+    tool_panel_section_label: 'Assembly'
+
+  - name: 'taxonomy_krona_chart'
+    owner: 'crs4'
+    tool_panel_section_label: 'Graph/Display Data'
+
+  - name: flye
+    owner: bgruening
+    tool_panel_section_label: Assembly
+
+  - name: staramr
+    owner: nml
+    tool_panel_section_label: Metagenomic Analysis
+
+  - name: tbl2gff3
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: bedtools
+    owner: iuc
+    tool_panel_section_label: "BED"
+
+  - name: text_processing
+    owner: bgruening
+    tool_panel_section_label: Text Manipulation
+
+  - name: column_maker
+    owner: devteam
+    tool_panel_section_label: Text Manipulation
+
+  - name: split_file_on_column
+    owner: bgruening
+    tool_panel_section_label: Text Manipulation
+
+  - name: circos 
+    owner: iuc
+    tool_panel_section_label: Visualization
