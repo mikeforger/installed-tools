@@ -78,4 +78,4 @@ tools:
 
   - name: circos 
     owner: iuc
-    tool_panel_section_label: Visualization
+    tool_panel_section_label: 'Graph/Display Data'

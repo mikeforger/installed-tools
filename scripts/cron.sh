@@ -2,7 +2,7 @@
 
 # Fetch latest code
 git fetch origin
-git checkout --reset hard origin/master
+git reset --hard origin/master
 
 # Dependencies
 if [[ ! -d ~/.cache/tools-venv ]] ; then
