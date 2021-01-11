@@ -1,0 +1,94 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tools:
+- name: sra_tools
+  owner: iuc
+  revisions:
+  - 653e89d73fc4
+  tool_panel_section_label: Get Data
+- name: fastqc
+  owner: devteam
+  revisions:
+  - e7b2202befea
+  tool_panel_section_label: FASTQ Quality Control
+- name: prinseq
+  owner: iuc
+  revisions:
+  - 02befcb391f5
+  tool_panel_section_label: FASTQ Quality Control
+- name: trim_galore
+  owner: bgruening
+  revisions:
+  - 084bbd8ba7b8
+  tool_panel_section_label: FASTA/FASTQ
+- name: trimmomatic
+  owner: pjbriggs
+  revisions:
+  - d94aff5ee623
+  tool_panel_section_label: FASTA/FASTQ
+- name: multiqc
+  owner: iuc
+  revisions:
+  - f7985e0479b9
+  tool_panel_section_label: FASTQ Quality Control
+- name: megahit
+  owner: iuc
+  revisions:
+  - 7518ee87b53d
+  tool_panel_section_label: Assembly
+- name: metaspades
+  owner: nml
+  revisions:
+  - 05c394313b1c
+  tool_panel_section_label: Assembly
+- name: quast
+  owner: iuc
+  revisions:
+  - ebb0dcdb621a
+  tool_panel_section_label: Assembly
+- name: taxonomy_krona_chart
+  owner: crs4
+  revisions:
+  - e9005d1f3cfd
+  tool_panel_section_label: Graph/Display Data
+- name: flye
+  owner: bgruening
+  revisions:
+  - de24438c9988
+  tool_panel_section_label: Assembly
+- name: staramr
+  owner: nml
+  revisions:
+  - 2fd4d4c9c5c2
+  tool_panel_section_label: Metagenomic Analysis
+- name: tbl2gff3
+  owner: iuc
+  revisions:
+  - 4a7f4b0cc0a3
+  tool_panel_section_label: Annotation
+- name: bedtools
+  owner: iuc
+  revisions:
+  - 0a5c785ac6db
+  tool_panel_section_label: BED
+- name: text_processing
+  owner: bgruening
+  revisions:
+  - ddf54b12c295
+  tool_panel_section_label: Text Manipulation
+- name: column_maker
+  owner: devteam
+  revisions:
+  - 9cd341095afd
+  tool_panel_section_label: Text Manipulation
+- name: split_file_on_column
+  owner: bgruening
+  revisions:
+  - b60f2452580e
+  tool_panel_section_label: Text Manipulation
+- name: circos
+  owner: iuc
+  revisions:
+  - df7356989ac1
+  tool_panel_section_label: Graph/Display Data
