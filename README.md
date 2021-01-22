@@ -1,6 +1,6 @@
-# EMC Galaxy Installed Tools
+# Avans ATGM Galaxy Installed Tools
 
-## Requesting Tools in EMC Galaxy
+## Requesting Tools in the ATGM Galaxy
 
 Policies are not set in stone and we would be happy to seek feedback and discussions.
 
