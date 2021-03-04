@@ -79,3 +79,7 @@ tools:
   - name: circos 
     owner: iuc
     tool_panel_section_label: 'Graph/Display Data'
+
+  - name: chewbbaca
+    owner: iss
+    tool_panel_section_label: 'Variant Calling'
