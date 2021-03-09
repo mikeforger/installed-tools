@@ -42,7 +42,7 @@ tools:
 
   - name: 'quast'
     owner: 'iuc'
-    tool_panel_section_label: 'FASTA Quality Control'
+    tool_panel_section_label: 'Assembly'
 
   - name: 'taxonomy_krona_chart'
     owner: 'crs4'
@@ -90,7 +90,7 @@ tools:
 
   - name: bandage
     owner: iuc
-    tool_panel_section_label: 'FASTA Quality Control'
+    tool_panel_section_label: 'Assembly'
 
   - name: prokka
     owner: crs4
