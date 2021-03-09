@@ -83,3 +83,31 @@ tools:
   - name: chewbbaca
     owner: iss
     tool_panel_section_label: 'Variant Calling'
+    
+  - name: shovill
+    owner: iuc
+    tool_panel_section_label: 'Assembly'
+
+  - name: bandage
+    owner: iuc
+    tool_panel_section_label: 'Assembly'
+
+  - name: prokka
+    owner: crs4
+    tool_panel_section_label: 'Annotation'
+
+  - name: bowtie2
+    owner: devteam
+    tool_panel_section_label: 'Mapping'
+    
+  - name: jbrowse
+    owner: iuc
+    tool_panel_section_label: 'Graph/Display Data'
+
+  - name: 'nanoplot'
+    owner: 'iuc'
+    tool_panel_section_label: 'FASTQ Quality Control'
+    
+  - name: 'filtlong'
+    owner: 'iuc'
+    tool_panel_section_label: 'FASTA/FASTQ'
