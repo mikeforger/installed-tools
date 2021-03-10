@@ -111,3 +111,8 @@ tools:
   - name: 'filtlong'
     owner: 'iuc'
     tool_panel_section_label: 'FASTA/FASTQ'
+
+  - name: 'unicycler'
+    owner: 'iuc'
+    tool_panel_section_label: 'Assembly'
+
