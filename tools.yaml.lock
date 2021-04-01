@@ -54,8 +54,6 @@ tools:
   tool_panel_section_label: Graph/Display Data
 - name: flye
   owner: bgruening
-  revisions:
-  - de24438c9988
   tool_panel_section_label: Assembly
 - name: staramr
   owner: nml
