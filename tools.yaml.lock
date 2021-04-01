@@ -52,9 +52,6 @@ tools:
   revisions:
   - e9005d1f3cfd
   tool_panel_section_label: Graph/Display Data
-- name: flye
-  owner: bgruening
-  tool_panel_section_label: Assembly
 - name: staramr
   owner: nml
   revisions:
