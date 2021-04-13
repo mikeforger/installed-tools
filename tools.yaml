@@ -116,3 +116,6 @@ tools:
     owner: 'iuc'
     tool_panel_section_label: 'Assembly'
 
+  - name: 'fastq_quality_filter'
+    owner: 'devteam'
+    tool_panel_section_label: 'FASTA/FASTQ'
