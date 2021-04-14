@@ -119,3 +119,15 @@ tools:
   - name: 'fastq_quality_filter'
     owner: 'devteam'
     tool_panel_section_label: 'FASTA/FASTQ'
+    
+  - name: 'kraken2'
+    owner: 'iuc'
+    tool_panel_section_label: 'NCBI Blast'
+    
+  - name: 'kraken2tax'
+    owner: 'devteam'
+    tool_panel_section_label: 'NCBI Blast'
+
+  - name: 'taxonomy_krona_chart'
+    owner: 'crs4'
+    tool_panel_section_label: 'Graph/Display Data'
