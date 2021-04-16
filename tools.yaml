@@ -131,3 +131,27 @@ tools:
   - name: 'taxonomy_krona_chart'
     owner: 'crs4'
     tool_panel_section_label: 'Graph/Display Data'
+
+  - name: 'minimap2'
+    owner: 'iuc'
+    tool_panel_section_label: 'Mapping'
+    
+  - name: 'miniasm'
+    owner: 'iuc'
+    tool_panel_section_label: 'Assembly'
+    
+  - name: 'abricate'
+    owner: 'iuc'
+    tool_panel_section_label: 'Annotation'
+    
+  - name: 'porechop'
+    owner: 'iuc'
+    tool_panel_section_label: 'Nanopore'
+    
+  - name: 'racon'
+    owner: 'bgruening'
+    tool_panel_section_label: 'Assembly'
+
+  - name: 'gfa_to_fa'
+    owner: 'iuc'
+    tool_panel_section_label: 'Convert Formats'
