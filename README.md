@@ -19,18 +19,43 @@ We encourage you to submit your tool to one of the larger community repositories
  * [Björn Grüning repo](https://github.com/bgruening/galaxytools)
  * [Galaxy Proteomics repo](https://github.com/galaxyproteomics/tools-galaxyp)
  * [EI repo](https://github.com/TGAC/earlham-galaxytools)
+## How to request Tools in Galaxy using Github. 
 
-### Updating an Existing Tool
+Your tool isn’t installed in http://galaxy.bioinformatics-atgm.nl/ ?  
 
-- Edit the .yaml.lock file to add the latest/specific changeset revision for the tool. You can use `python scripts/update-tool.py --owner <repo-owner> --name <repo-name> <file.yaml.lock>` in order to do this if you just want to add the latest revision.
-- Open a pull request
+### Overview installing new tool: 
 
-### Requesting a New Tool
+1.	Check if tool is available on https://usegalaxy.eu/ 
 
-- If you just want the latest version:
-	- Edit the .yaml file to add name/owner/section
-- If you want a specific version:
-	- Edit the .yaml file to add name/owner/section
-	- Run `make fix`
-	- Edit the .yaml.lock to correct the version number.
-- Open a pull request
+```
+Yes: Select 'See in Tool Shed' in the tool menu
+```
+![See in Toolshed](./pictures/Picture3.png)
+
+
+2.	Check if tool is available on https://toolshed.g2.bx.psu.edu/ 
+If tool is available:
+
+* Get name + owner information from toolshed (name + owner)
+* Get tool_panel_section_label information on https://usegalaxy.eu/ 
+
+3.	Add tool in https://github.com/Avans-ATGM/installed-tools/blob/master/tools.yaml 
+
+![tool.yaml](./pictures/Picture1.png)
+
+4.	Create a new branch for this commit and start a pull request. (this can take a day or two)
+
+
+### If specific version is needed: 
+
+*(TOOL MUST ALREADY HAVE BEEN ADDED TO TOOLS.YAML)*
+
+5.	Check revision number of specific version in toolshed
+
+6.	Add tool in https://github.com/Avans-ATGM/installed-tools/blob/master/tools.yaml.lock 
+
+![tools.yaml.Lock](./pictures/Picture2.png) 
+
+7.	Create a new branch for this commit and start a pull request. (this can take a day or two)
+
+Or check the Step-by-Step tutorial here: [Step-by-Step](./Step-by-step_tutorial.md)
