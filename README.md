@@ -23,6 +23,8 @@ We encourage you to submit your tool to one of the larger community repositories
 
 Your tool isn’t installed in http://galaxy.bioinformatics-atgm.nl/ ?  
 
+( Step-by-Step tutorial here: [Step-by-Step](./Step-by-step_tutorial.md) )
+
 ### Overview installing new tool: 
 
 1.	Check if tool is available on https://usegalaxy.eu/ 
