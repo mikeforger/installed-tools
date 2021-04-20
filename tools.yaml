@@ -171,3 +171,7 @@ tools:
   - name: 'busco'
     owner: 'iuc'
     tool_panel_section_label: 'Annotation'
+
+  - name: 'augustus'
+    owner: 'bgruening'
+    tool_panel_section_label: 'Annotation'
