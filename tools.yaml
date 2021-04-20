@@ -155,3 +155,19 @@ tools:
   - name: 'gfa_to_fa'
     owner: 'iuc'
     tool_panel_section_label: 'Convert Formats'
+
+  - name: 'canu'
+    owner: 'bgruening'
+    tool_panel_section_label: 'Assembly'
+    
+  - name: 'snpeff'
+    owner: 'iuc'
+    tool_panel_section_label: 'Variant Calling'
+    
+  - name: 'ngsaligners'
+    owner: 'subazini'
+    tool_panel_section_label: 'Mapping'
+    
+  - name: 'busco'
+    owner: 'iuc'
+    tool_panel_section_label: 'Annotation'
