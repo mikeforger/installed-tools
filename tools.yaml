@@ -196,7 +196,7 @@ tools:
     owner: 'iuc'
     tool_panel_section_label: 'Assembly'
     
-  - name: 'suite-orthofinder'
+  - name: 'orthofinder_onlygroups'
     owner: 'iuc'
     tool_panel_section_label: 'Multiple Alignments'
     
@@ -211,3 +211,11 @@ tools:
   - name: 'raven'
     owner: 'iuc'
     tool_panel_section_label: 'Assembly'
+
+  - name: 'suite_medaka'
+    owner: 'iuc'
+    tool_panel_section_label: 'Nanopore'
+    
+  - name: 'suite_nanopolish'
+    owner: 'bgruening'
+    tool_panel_section_label: 'Nanopore'
