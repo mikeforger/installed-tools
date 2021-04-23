@@ -179,3 +179,11 @@ tools:
   - name: 'cutadapt'
     owner: 'lparsons'
     tool_panel_section_label: 'FASTA/FASTQ'
+
+  - name: 'suite_medaka'
+    owner: 'iuc'
+    tool_panel_section_label: 'Nanopore'
+    
+  - name: 'suite_nanopolish'
+    owner: 'bgruening'
+    tool_panel_section_label: 'Nanopore'
