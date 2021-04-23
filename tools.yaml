@@ -180,10 +180,6 @@ tools:
     owner: 'lparsons'
     tool_panel_section_label: 'FASTA/FASTQ'
     
-   - name: 'minimus2'
-     owner: 'edward-kirton'
-     tool_panel_section_label: 'Assembly'
-    
    - name: 'fastp'
      owner: 'iuc'
      tool_panel_section_label: 'FASTA/FASTQ'
