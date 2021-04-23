@@ -54,6 +54,10 @@ tools:
   revisions:
   - e9005d1f3cfd
   tool_panel_section_label: Graph/Display Data
+- name: flye
+  owner: bgruening
+  revisions: []
+  tool_panel_section_label: Assembly
 - name: staramr
   owner: nml
   revisions:
@@ -90,3 +94,140 @@ tools:
   revisions:
   - df7356989ac1
   tool_panel_section_label: Graph/Display Data
+- name: chewbbaca
+  owner: iss
+  revisions: []
+  tool_panel_section_label: Variant Calling
+- name: shovill
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Assembly
+- name: bandage
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Assembly
+- name: prokka
+  owner: crs4
+  revisions: []
+  tool_panel_section_label: Annotation
+- name: bowtie2
+  owner: devteam
+  revisions: []
+  tool_panel_section_label: Mapping
+- name: jbrowse
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Graph/Display Data
+- name: nanoplot
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: FASTQ Quality Control
+- name: filtlong
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: FASTA/FASTQ
+- name: unicycler
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Assembly
+- name: fastq_quality_filter
+  owner: devteam
+  revisions: []
+  tool_panel_section_label: FASTA/FASTQ
+- name: kraken2
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: NCBI Blast
+- name: kraken2tax
+  owner: devteam
+  revisions: []
+  tool_panel_section_label: NCBI Blast
+- name: taxonomy_krona_chart
+  owner: crs4
+  revisions:
+  - e9005d1f3cfd
+  tool_panel_section_label: Graph/Display Data
+- name: minimap2
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Mapping
+- name: miniasm
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Assembly
+- name: abricate
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Annotation
+- name: porechop
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Nanopore
+- name: racon
+  owner: bgruening
+  revisions: []
+  tool_panel_section_label: Assembly
+- name: gfa_to_fa
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Convert Formats
+- name: canu
+  owner: bgruening
+  revisions: []
+  tool_panel_section_label: Assembly
+- name: snpeff
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Variant Calling
+- name: ngsaligners
+  owner: subazini
+  revisions: []
+  tool_panel_section_label: Mapping
+- name: busco
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Annotation
+- name: augustus
+  owner: bgruening
+  revisions: []
+  tool_panel_section_label: Annotation
+- name: cutadapt
+  owner: lparsons
+  revisions: []
+  tool_panel_section_label: FASTA/FASTQ
+- name: fastp
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: FASTA/FASTQ
+- name: shasta
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Assembly
+- name: trycycler
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Assembly
+- name: orthofinder_onlygroups
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Multiple Alignments
+- name: progressivemauve
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Multiple Alignments
+- name: medaka_consensus
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Assembly
+- name: raven
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Assembly
+- name: suite_medaka
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Nanopore
+- name: suite_nanopolish
+  owner: bgruening
+  revisions: []
+  tool_panel_section_label: Nanopore

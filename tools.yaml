@@ -4,13 +4,12 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 
 tools:
-
-    # data_retrieval
+  # data_retrieval
   - name: 'sra_tools'
     owner: 'iuc'
     tool_panel_section_label: 'Get Data'
-   
-    # quality_control
+
+  # quality_control
   - name: 'fastqc'
     owner: 'devteam'
     tool_panel_section_label: 'FASTQ Quality Control'
@@ -76,14 +75,14 @@ tools:
     owner: bgruening
     tool_panel_section_label: Text Manipulation
 
-  - name: circos 
+  - name: circos
     owner: iuc
     tool_panel_section_label: 'Graph/Display Data'
 
   - name: chewbbaca
     owner: iss
     tool_panel_section_label: 'Variant Calling'
-    
+
   - name: shovill
     owner: iuc
     tool_panel_section_label: 'Assembly'
@@ -99,7 +98,7 @@ tools:
   - name: bowtie2
     owner: devteam
     tool_panel_section_label: 'Mapping'
-    
+
   - name: jbrowse
     owner: iuc
     tool_panel_section_label: 'Graph/Display Data'
@@ -107,7 +106,7 @@ tools:
   - name: 'nanoplot'
     owner: 'iuc'
     tool_panel_section_label: 'FASTQ Quality Control'
-    
+
   - name: 'filtlong'
     owner: 'iuc'
     tool_panel_section_label: 'FASTA/FASTQ'
@@ -119,11 +118,11 @@ tools:
   - name: 'fastq_quality_filter'
     owner: 'devteam'
     tool_panel_section_label: 'FASTA/FASTQ'
-    
+
   - name: 'kraken2'
     owner: 'iuc'
     tool_panel_section_label: 'NCBI Blast'
-    
+
   - name: 'kraken2tax'
     owner: 'devteam'
     tool_panel_section_label: 'NCBI Blast'
@@ -135,19 +134,19 @@ tools:
   - name: 'minimap2'
     owner: 'iuc'
     tool_panel_section_label: 'Mapping'
-    
+
   - name: 'miniasm'
     owner: 'iuc'
     tool_panel_section_label: 'Assembly'
-    
+
   - name: 'abricate'
     owner: 'iuc'
     tool_panel_section_label: 'Annotation'
-    
+
   - name: 'porechop'
     owner: 'iuc'
     tool_panel_section_label: 'Nanopore'
-    
+
   - name: 'racon'
     owner: 'bgruening'
     tool_panel_section_label: 'Assembly'
@@ -159,15 +158,15 @@ tools:
   - name: 'canu'
     owner: 'bgruening'
     tool_panel_section_label: 'Assembly'
-    
+
   - name: 'snpeff'
     owner: 'iuc'
     tool_panel_section_label: 'Variant Calling'
-    
+
   - name: 'ngsaligners'
     owner: 'subazini'
     tool_panel_section_label: 'Mapping'
-    
+
   - name: 'busco'
     owner: 'iuc'
     tool_panel_section_label: 'Annotation'
@@ -179,31 +178,31 @@ tools:
   - name: 'cutadapt'
     owner: 'lparsons'
     tool_panel_section_label: 'FASTA/FASTQ'
-    
-   - name: 'fastp'
-     owner: 'iuc'
-     tool_panel_section_label: 'FASTA/FASTQ'
-     
-   - name: 'shasta'
-     owner: 'iuc'
-     tool_panel_section_label: 'Assembly'
-     
+
+  - name: 'fastp'
+    owner: 'iuc'
+    tool_panel_section_label: 'FASTA/FASTQ'
+
+  - name: 'shasta'
+    owner: 'iuc'
+    tool_panel_section_label: 'Assembly'
+
   - name: 'trycycler'
     owner: 'iuc'
     tool_panel_section_label: 'Assembly'
-    
+
   - name: 'orthofinder_onlygroups'
     owner: 'iuc'
     tool_panel_section_label: 'Multiple Alignments'
-    
+
   - name: 'progressivemauve'
     owner: 'iuc'
     tool_panel_section_label: 'Multiple Alignments'
-    
+
   - name: 'medaka_consensus'
     owner: 'iuc'
     tool_panel_section_label: 'Assembly'
-    
+
   - name: 'raven'
     owner: 'iuc'
     tool_panel_section_label: 'Assembly'
@@ -211,7 +210,7 @@ tools:
   - name: 'suite_medaka'
     owner: 'iuc'
     tool_panel_section_label: 'Nanopore'
-    
+
   - name: 'suite_nanopolish'
     owner: 'bgruening'
     tool_panel_section_label: 'Nanopore'
