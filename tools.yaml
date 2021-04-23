@@ -175,3 +175,7 @@ tools:
   - name: 'augustus'
     owner: 'bgruening'
     tool_panel_section_label: 'Annotation'
+
+  - name: 'cutadapt'
+    owner: 'lparsons'
+    tool_panel_section_label: 'FASTA/FASTQ'
