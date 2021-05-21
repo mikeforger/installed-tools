@@ -214,3 +214,7 @@ tools:
   - name: 'suite_nanopolish'
     owner: 'bgruening'
     tool_panel_section_label: 'Nanopore'
+
+  - name: 'hmmer_hmmscan'
+    owner: 'iuc'
+    tool_panel_section_label: 'Annotation'
