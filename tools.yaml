@@ -218,3 +218,13 @@ tools:
   - name: 'hmmer_hmmscan'
     owner: 'iuc'
     tool_panel_section_label: 'Annotation'
+    
+  - name: 'raxml'
+    owner: 'iuc'
+    tool_panel_section_label: 'Phylogenetics'
+  
+  - name: 'mrbayes'
+    owner: 'nml'
+    tool_panel_section_label: 'Phylogenetics'
+    
+    
