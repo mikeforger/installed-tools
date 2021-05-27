@@ -227,4 +227,6 @@ tools:
     owner: 'nml'
     tool_panel_section_label: 'Phylogenetics'
     
-    
+  - name: 'package_raxml_8_2_4'
+    owner: 'iuc'
+    tool_panel_section_label: 'Phylogenetics'
