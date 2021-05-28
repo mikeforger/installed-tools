@@ -232,6 +232,6 @@ tools:
     tool_panel_section_label: 'Phylogenetics'
 
 
-  - name: 'mka'
+  - name: 'kma'
     owner: 'iuc'
     tool_panel_section_label: 'Mapping'
