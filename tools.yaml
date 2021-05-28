@@ -230,3 +230,8 @@ tools:
   - name: 'package_raxml_8_2_4'
     owner: 'iuc'
     tool_panel_section_label: 'Phylogenetics'
+
+
+  - name: 'mka'
+    owner: 'iuc'
+    tool_panel_section_label: 'Mapping'
