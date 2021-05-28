@@ -231,7 +231,22 @@ tools:
     owner: 'iuc'
     tool_panel_section_label: 'Phylogenetics'
 
-
   - name: 'kma'
     owner: 'iuc'
     tool_panel_section_label: 'Mapping'
+
+  - name: 'muscle'
+    owner: 'iuc'
+    tool_panel_section_label: 'Multiple Alignments'
+  
+  - name: 'clustalw'
+    owner: 'devteam'
+    tool_panel_section_label: 'Multiple Alignments'
+  
+  - name: 'phyml'
+    owner: 'iuc'
+    tool_panel_section_label: 'Phylogenetics'
+  
+  - name: 'fastq_stats'
+    owner: 'devteam'
+    tool_panel_section_label: 'FASTQ Quality Control'
