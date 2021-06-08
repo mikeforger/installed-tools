@@ -250,3 +250,11 @@ tools:
   - name: 'fastq_stats'
     owner: 'devteam'
     tool_panel_section_label: 'FASTQ Quality Control'
+    
+  - name: 'mummer_mummer'
+    owner: 'iuc'
+    tool_panel_section_label: 'Multiple Alignments'
+
+  - name: 'proteinortho'
+    owner: 'iuc'
+    tool_panel_section_label: 'Proteomics'
