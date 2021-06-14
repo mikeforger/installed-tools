@@ -262,3 +262,11 @@ tools:
   - name: 'proteinortho_summary'
     owner: 'iuc'
     tool_panel_section_label: 'Proteomics'
+    
+  - name: 'diamond'
+    owner: 'bgruening'
+    tool_panel_section_label: 'NCBI Blast'
+ 
+   - name: 'kobas'
+    owner: 'iuc'
+    tool_panel_section_label: 'Annotation'
