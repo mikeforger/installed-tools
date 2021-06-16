@@ -267,6 +267,10 @@ tools:
     owner: 'bgruening'
     tool_panel_section_label: 'NCBI Blast'
  
-   - name: 'kobas'
+  - name: 'kobas'
     owner: 'iuc'
     tool_panel_section_label: 'Annotation'
+ 
+  - name: 'centrifuge'
+    owner: 'jvolkening'
+    tool_panel_section_label: 'NCBI Blast'
