@@ -288,3 +288,7 @@ tools:
   - name: 'centrifuge'
     owner: 'jvolkening'
     tool_panel_section_label: 'NCBI Blast'
+
+  - name: 'data_manager_build_kraken2_database'
+    owner: 'iuc'
+    tool_panel_section_label: 'Assembly'
