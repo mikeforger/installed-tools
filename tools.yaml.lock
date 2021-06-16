@@ -287,3 +287,8 @@ tools:
   owner: jvolkening
   revisions: []
   tool_panel_section_label: NCBI Blast
+- name: data_manager_diamond_database_builder
+  owner: bgruening
+  revisions:
+  - 5558f74bd296
+  tool_panel_section_label: 'Assembly'   
