@@ -203,7 +203,7 @@ tools:
   owner: iuc
   revisions: []
   tool_panel_section_label: Assembly
-- name: trycycler
+- name: suite_trycycler
   owner: iuc
   revisions: []
   tool_panel_section_label: Assembly
@@ -231,3 +231,63 @@ tools:
   owner: bgruening
   revisions: []
   tool_panel_section_label: Nanopore
+- name: hmmer_hmmscan
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Annotation
+- name: raxml
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Phylogenetics
+- name: mrbayes
+  owner: nml
+  revisions: []
+  tool_panel_section_label: Phylogenetics
+- name: package_raxml_8_2_4
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Phylogenetics
+- name: kma
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Mapping
+- name: muscle
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Multiple Alignments
+- name: clustalw
+  owner: devteam
+  revisions: []
+  tool_panel_section_label: Multiple Alignments
+- name: phyml
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Phylogenetics
+- name: fastq_stats
+  owner: devteam
+  revisions: []
+  tool_panel_section_label: FASTQ Quality Control
+- name: mummer_mummer
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Multiple Alignments
+- name: proteinortho
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Proteomics
+- name: proteinortho_summary
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Proteomics
+- name: diamond
+  owner: bgruening
+  revisions: []
+  tool_panel_section_label: NCBI Blast
+- name: kobas
+  owner: iuc
+  revisions: []
+  tool_panel_section_label: Annotation
+- name: centrifuge
+  owner: jvolkening
+  revisions: []
+  tool_panel_section_label: NCBI Blast
