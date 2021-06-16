@@ -292,3 +292,7 @@ tools:
   - name: 'data_manager_build_kraken2_database'
     owner: 'iuc'
     tool_panel_section_label: 'Assembly'
+    
+  - name: 'data_manager_diamond_database_builder'
+    owner: 'bgruening'
+    tool_panel_section_label: 'Assembly'   
