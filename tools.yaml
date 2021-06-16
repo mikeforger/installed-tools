@@ -187,9 +187,23 @@ tools:
     owner: 'iuc'
     tool_panel_section_label: 'Assembly'
 
-  - name: 'suite_trycycler'
+  - name: trycycler_cluster
     owner: 'iuc'
     tool_panel_section_label: 'Assembly'
+  - name: trycycler_consensus
+    owner: 'iuc'
+    tool_panel_section_label: 'Assembly'
+  - name: trycycler_partition
+    owner: 'iuc'
+    tool_panel_section_label: 'Assembly'
+  - name: trycycler_reconcile_msa
+    owner: 'iuc'
+    tool_panel_section_label: 'Assembly'
+
+  - name: trycycler_subsample
+    owner: 'iuc'
+    tool_panel_section_label: 'Assembly'
+
 
   - name: 'orthofinder_onlygroups'
     owner: 'iuc'
@@ -218,15 +232,15 @@ tools:
   - name: 'hmmer_hmmscan'
     owner: 'iuc'
     tool_panel_section_label: 'Annotation'
-    
+
   - name: 'raxml'
     owner: 'iuc'
     tool_panel_section_label: 'Phylogenetics'
-  
+
   - name: 'mrbayes'
     owner: 'nml'
     tool_panel_section_label: 'Phylogenetics'
-    
+
   - name: 'package_raxml_8_2_4'
     owner: 'iuc'
     tool_panel_section_label: 'Phylogenetics'
@@ -238,19 +252,19 @@ tools:
   - name: 'muscle'
     owner: 'iuc'
     tool_panel_section_label: 'Multiple Alignments'
-  
+
   - name: 'clustalw'
     owner: 'devteam'
     tool_panel_section_label: 'Multiple Alignments'
-  
+
   - name: 'phyml'
     owner: 'iuc'
     tool_panel_section_label: 'Phylogenetics'
-  
+
   - name: 'fastq_stats'
     owner: 'devteam'
     tool_panel_section_label: 'FASTQ Quality Control'
-    
+
   - name: 'mummer_mummer'
     owner: 'iuc'
     tool_panel_section_label: 'Multiple Alignments'
@@ -258,19 +272,19 @@ tools:
   - name: 'proteinortho'
     owner: 'iuc'
     tool_panel_section_label: 'Proteomics'
-    
+
   - name: 'proteinortho_summary'
     owner: 'iuc'
     tool_panel_section_label: 'Proteomics'
-    
+
   - name: 'diamond'
     owner: 'bgruening'
     tool_panel_section_label: 'NCBI Blast'
- 
+
   - name: 'kobas'
     owner: 'iuc'
     tool_panel_section_label: 'Annotation'
- 
+
   - name: 'centrifuge'
     owner: 'jvolkening'
     tool_panel_section_label: 'NCBI Blast'

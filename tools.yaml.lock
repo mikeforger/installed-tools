@@ -203,10 +203,6 @@ tools:
   owner: iuc
   revisions: []
   tool_panel_section_label: Assembly
-- name: suite_trycycler
-  owner: iuc
-  revisions: []
-  tool_panel_section_label: Assembly
 - name: orthofinder_onlygroups
   owner: iuc
   revisions: []
