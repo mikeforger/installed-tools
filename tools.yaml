@@ -295,4 +295,12 @@ tools:
     
   - name: 'data_manager_diamond_database_builder'
     owner: 'bgruening'
-    tool_panel_section_label: 'Assembly'   
+    tool_panel_section_label: 'Assembly'
+    
+  - name: 'htseq_count'
+    owner: 'lparsons'
+    tool_panel_section_label: 'RNA analysis'
+    
+  - name: 'deseq2'
+    owner: 'iuc'
+    tool_panel_section_label: 'RNA analysis'
