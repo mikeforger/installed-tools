@@ -308,3 +308,7 @@ tools:
   - name: 'samtools_stats'
     owner: 'devteam'
     tool_panel_section_label: 'SAM/BAM'
+
+  - name: 'nanofilt'
+    owner: 'leomrtns'
+    tool_panel_section_label: 'Nanopore'
