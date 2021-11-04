@@ -312,3 +312,7 @@ tools:
   - name: 'nanofilt'
     owner: 'leomrtns'
     tool_panel_section_label: 'Nanopore'
+
+  - name: 'featurecounts'
+    owner: 'iuc'
+    tool_panel_section_label: 'RNA Analysis'
