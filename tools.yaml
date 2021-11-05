@@ -320,3 +320,6 @@ tools:
   - name: 'ggplot2_heatmap2'
     owner: 'iuc'
     tool_panel_section_label: 'Graph/Display Data'
+  - name: 'table_compute'
+    owner: 'iuc'
+    tool_panel_section_label: 'Text Manipulation'
