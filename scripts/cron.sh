@@ -11,7 +11,7 @@ make update_trusted
 # Commit changes
 git config --global user.email "jenkins@galaxy.bioinformatics-atgm.nl"
 git config --global user.name "Jenkins Bot"
-git checkout master
+git checkout main
 git add *.lock
 git commit -m "Updated trusted tools ($(date -I))" || true
 git push
