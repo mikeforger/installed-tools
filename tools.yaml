@@ -325,11 +325,11 @@ tools:
     owner: 'devteam'
     tool_panel_section_label: 'FASTA/FASTQ'
     
+   - name: 'fastqe'
+     owner: 'iuc'
+     tool_panel_section_label: 'FASTA/FASTQ'
+     
    - name: 'table_compute'
      owner: 'iuc'
      tool_panel_section_label: 'Text Manipulation'
 
-
-   - name: 'fastqe'
-     owner: 'iuc'
-     tool_panel_section_label: 'FASTA/FASTQ'
