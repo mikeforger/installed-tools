@@ -6,6 +6,7 @@ tools:
   owner: iuc
   revisions:
   - 653e89d73fc4
+  - 83c7d564b128
   - e08a7ad4378b
   tool_panel_section_label: Get Data
 - name: fastqc
@@ -17,6 +18,7 @@ tools:
   owner: iuc
   revisions:
   - 02befcb391f5
+  - 654b3a274ed5
   tool_panel_section_label: FASTQ Quality Control
 - name: trim_galore
   owner: bgruening
@@ -32,6 +34,7 @@ tools:
   owner: iuc
   revisions:
   - 75c93c70d094
+  - 9a913cdee30e
   - f7985e0479b9
   tool_panel_section_label: FASTQ Quality Control
 - name: megahit
@@ -72,6 +75,7 @@ tools:
   owner: iuc
   revisions:
   - 0a5c785ac6db
+  - 7ab85ac5f64b
   - ce3c7f062223
   tool_panel_section_label: BED
 - name: text_processing
@@ -92,6 +96,7 @@ tools:
 - name: circos
   owner: iuc
   revisions:
+  - 7f13dc906cb9
   - df7356989ac1
   tool_panel_section_label: Graph/Display Data
 - name: chewbbaca
@@ -100,11 +105,13 @@ tools:
   tool_panel_section_label: Variant Calling
 - name: shovill
   owner: iuc
-  revisions: []
+  revisions:
+  - 83ead2be47b2
   tool_panel_section_label: Assembly
 - name: bandage
   owner: iuc
-  revisions: []
+  revisions:
+  - d8b1027d6ce0
   tool_panel_section_label: Assembly
 - name: prokka
   owner: crs4
@@ -116,19 +123,23 @@ tools:
   tool_panel_section_label: Mapping
 - name: jbrowse
   owner: iuc
-  revisions: []
+  revisions:
+  - a6e57ff585c0
   tool_panel_section_label: Graph/Display Data
 - name: nanoplot
   owner: iuc
-  revisions: []
+  revisions:
+  - edbb6c5028f5
   tool_panel_section_label: FASTQ Quality Control
 - name: filtlong
   owner: iuc
-  revisions: []
+  revisions:
+  - a72af9de6bf5
   tool_panel_section_label: FASTA/FASTQ
 - name: unicycler
   owner: iuc
-  revisions: []
+  revisions:
+  - 9e3e80cc4ad4
   tool_panel_section_label: Assembly
 - name: fastq_quality_filter
   owner: devteam
@@ -136,7 +147,8 @@ tools:
   tool_panel_section_label: FASTA/FASTQ
 - name: kraken2
   owner: iuc
-  revisions: []
+  revisions:
+  - e674066930b2
   tool_panel_section_label: NCBI Blast
 - name: kraken2tax
   owner: devteam
@@ -149,19 +161,23 @@ tools:
   tool_panel_section_label: Graph/Display Data
 - name: minimap2
   owner: iuc
-  revisions: []
+  revisions:
+  - 6b1e195506a3
   tool_panel_section_label: Mapping
 - name: miniasm
   owner: iuc
-  revisions: []
+  revisions:
+  - 80d1250bd5fd
   tool_panel_section_label: Assembly
 - name: abricate
   owner: iuc
-  revisions: []
+  revisions:
+  - c2ef298da409
   tool_panel_section_label: Annotation
 - name: porechop
   owner: iuc
-  revisions: []
+  revisions:
+  - 5f76b20953e5
   tool_panel_section_label: Nanopore
 - name: racon
   owner: bgruening
@@ -169,7 +185,8 @@ tools:
   tool_panel_section_label: Assembly
 - name: gfa_to_fa
   owner: iuc
-  revisions: []
+  revisions:
+  - e33c82b63727
   tool_panel_section_label: Convert Formats
 - name: canu
   owner: bgruening
@@ -177,7 +194,8 @@ tools:
   tool_panel_section_label: Assembly
 - name: snpeff
   owner: iuc
-  revisions: []
+  revisions:
+  - cfcf33df7fc0
   tool_panel_section_label: Variant Calling
 - name: ngsaligners
   owner: subazini
@@ -185,7 +203,8 @@ tools:
   tool_panel_section_label: Mapping
 - name: busco
   owner: iuc
-  revisions: []
+  revisions:
+  - 46ae58b1d792
   tool_panel_section_label: Annotation
 - name: augustus
   owner: bgruening
@@ -197,31 +216,38 @@ tools:
   tool_panel_section_label: FASTA/FASTQ
 - name: fastp
   owner: iuc
-  revisions: []
+  revisions:
+  - dbf9c561ef29
   tool_panel_section_label: FASTA/FASTQ
 - name: shasta
   owner: iuc
-  revisions: []
+  revisions:
+  - 60573349e9ae
   tool_panel_section_label: Assembly
 - name: orthofinder_onlygroups
   owner: iuc
-  revisions: []
+  revisions:
+  - 0ff17c7a18cd
   tool_panel_section_label: Multiple Alignments
 - name: progressivemauve
   owner: iuc
-  revisions: []
+  revisions:
+  - 4d869208bd52
   tool_panel_section_label: Multiple Alignments
 - name: medaka_consensus
   owner: iuc
-  revisions: []
+  revisions:
+  - fa11aa8103b2
   tool_panel_section_label: Assembly
 - name: raven
   owner: iuc
-  revisions: []
+  revisions:
+  - 3edba9afc9bc
   tool_panel_section_label: Assembly
 - name: suite_medaka
   owner: iuc
-  revisions: []
+  revisions:
+  - e1eccf401a38
   tool_panel_section_label: Nanopore
 - name: suite_nanopolish
   owner: bgruening
@@ -229,11 +255,13 @@ tools:
   tool_panel_section_label: Nanopore
 - name: hmmer_hmmscan
   owner: iuc
-  revisions: []
+  revisions:
+  - be072920a53e
   tool_panel_section_label: Annotation
 - name: raxml
   owner: iuc
-  revisions: []
+  revisions:
+  - 73a469f7dc96
   tool_panel_section_label: Phylogenetics
 - name: mrbayes
   owner: nml
@@ -241,11 +269,13 @@ tools:
   tool_panel_section_label: Phylogenetics
 - name: package_raxml_8_2_4
   owner: iuc
-  revisions: []
+  revisions:
+  - 34be595fd2a9
   tool_panel_section_label: Phylogenetics
 - name: kma
   owner: iuc
-  revisions: []
+  revisions:
+  - 2595c27071c2
   tool_panel_section_label: Mapping
 - name: muscle
   owner: iuc
@@ -257,7 +287,8 @@ tools:
   tool_panel_section_label: Multiple Alignments
 - name: phyml
   owner: iuc
-  revisions: []
+  revisions:
+  - 2bf47d57ebb5
   tool_panel_section_label: Phylogenetics
 - name: fastq_stats
   owner: devteam
@@ -265,15 +296,18 @@ tools:
   tool_panel_section_label: FASTQ Quality Control
 - name: mummer_mummer
   owner: iuc
-  revisions: []
+  revisions:
+  - 48823c9635a4
   tool_panel_section_label: Multiple Alignments
 - name: proteinortho
   owner: iuc
-  revisions: []
+  revisions:
+  - 26abc7846e6f
   tool_panel_section_label: Proteomics
 - name: proteinortho_summary
   owner: iuc
-  revisions: []
+  revisions:
+  - c3f58c2eee1e
   tool_panel_section_label: Proteomics
 - name: diamond
   owner: bgruening
@@ -281,7 +315,8 @@ tools:
   tool_panel_section_label: NCBI Blast
 - name: kobas
   owner: iuc
-  revisions: []
+  revisions:
+  - 20f1b45dea63
   tool_panel_section_label: Annotation
 - name: centrifuge
   owner: jvolkening
@@ -291,4 +326,4 @@ tools:
   owner: bgruening
   revisions:
   - 5558f74bd296
-  tool_panel_section_label: 'Assembly'   
+  tool_panel_section_label: Assembly
