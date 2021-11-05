@@ -316,3 +316,7 @@ tools:
   - name: 'featurecounts'
     owner: 'iuc'
     tool_panel_section_label: 'RNA Analysis'
+
+  - name: 'ggplot2_heatmap2'
+    owner: 'iuc'
+    tool_panel_section_label: 'Graph/Display Data'
